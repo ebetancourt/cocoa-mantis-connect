@@ -1,0 +1,681 @@
+<html><head><title>HDMantisConnect</title><link rel="stylesheet" type="text/css" href="../assets/styles/default.css" /><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script><script type="text/javascript" src="../assets/scripts/base.js"></script></head><body id="content"><h1>HDMantisConnect Class Reference</h1><p>The implementation classes and methods for the MantisConnect web service.</p><p>Inherits from <a href="../framework/SoapService.html">SoapService</a>.</p><h2>Properties</h2><h2>Instance Methods</h2><h3 id="mc_config_get_string:username:&#xD;&#xA;	password:&#xD;&#xA;	config_var:&#xD;&#xA;	">mc_config_get_string:username:
+	password:
+	config_var:
+	</h3><p>Get the value for the specified configuration variable.
+			Returns NSString* to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_config_get_string: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> config_var: (NSString*) <em>config_var</em></code><h3 id="mc_config_get_string:action:username:&#xD;&#xA;	password:&#xD;&#xA;	config_var:&#xD;&#xA;	">mc_config_get_string:action:username:
+	password:
+	config_var:
+	</h3><p>Get the value for the specified configuration variable.
+			Returns NSString* to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_config_get_string: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> config_var: (NSString*) <em>config_var</em>;</code><h3 id="mc_enum_access_levels:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_access_levels:username:
+	password:
+	</h3><p>Get the enumeration for access levels.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_access_levels: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_access_levels:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_access_levels:action:username:
+	password:
+	</h3><p>Get the enumeration for access levels.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_access_levels: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_custom_field_types:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_custom_field_types:username:
+	password:
+	</h3><p>Get the enumeration for custom field types.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_custom_field_types: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_custom_field_types:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_custom_field_types:action:username:
+	password:
+	</h3><p>Get the enumeration for custom field types.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_custom_field_types: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_etas:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_etas:username:
+	password:
+	</h3><p>Get the enumeration for ETAs.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_etas: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_etas:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_etas:action:username:
+	password:
+	</h3><p>Get the enumeration for ETAs.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_etas: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_get:username:&#xD;&#xA;	password:&#xD;&#xA;	enumeration:&#xD;&#xA;	">mc_enum_get:username:
+	password:
+	enumeration:
+	</h3><p>Get the enumeration for the specified enumeration type.
+			Returns NSString* to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_get: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> enumeration: (NSString*) <em>enumeration</em></code><h3 id="mc_enum_get:action:username:&#xD;&#xA;	password:&#xD;&#xA;	enumeration:&#xD;&#xA;	">mc_enum_get:action:username:
+	password:
+	enumeration:
+	</h3><p>Get the enumeration for the specified enumeration type.
+			Returns NSString* to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_get: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> enumeration: (NSString*) <em>enumeration</em>;</code><h3 id="mc_enum_priorities:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_priorities:username:
+	password:
+	</h3><p>Get the enumeration for priorities.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_priorities: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_priorities:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_priorities:action:username:
+	password:
+	</h3><p>Get the enumeration for priorities.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_priorities: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_project_status:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_project_status:username:
+	password:
+	</h3><p>Get the enumeration for project statuses.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_project_status: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_project_status:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_project_status:action:username:
+	password:
+	</h3><p>Get the enumeration for project statuses.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_project_status: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_project_view_states:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_project_view_states:username:
+	password:
+	</h3><p>Get the enumeration for project view states.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_project_view_states: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_project_view_states:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_project_view_states:action:username:
+	password:
+	</h3><p>Get the enumeration for project view states.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_project_view_states: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_projections:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_projections:username:
+	password:
+	</h3><p>Get the enumeration for projections.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_projections: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_projections:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_projections:action:username:
+	password:
+	</h3><p>Get the enumeration for projections.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_projections: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_reproducibilities:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_reproducibilities:username:
+	password:
+	</h3><p>Get the enumeration for reproducibilities.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_reproducibilities: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_reproducibilities:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_reproducibilities:action:username:
+	password:
+	</h3><p>Get the enumeration for reproducibilities.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_reproducibilities: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_resolutions:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_resolutions:username:
+	password:
+	</h3><p>Get the enumeration for resolutions.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_resolutions: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_resolutions:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_resolutions:action:username:
+	password:
+	</h3><p>Get the enumeration for resolutions.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_resolutions: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_severities:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_severities:username:
+	password:
+	</h3><p>Get the enumeration for severities.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_severities: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_severities:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_severities:action:username:
+	password:
+	</h3><p>Get the enumeration for severities.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_severities: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_status:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_status:username:
+	password:
+	</h3><p>Get the enumeration for statuses.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_status: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_status:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_status:action:username:
+	password:
+	</h3><p>Get the enumeration for statuses.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_status: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_enum_view_states:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_view_states:username:
+	password:
+	</h3><p>Get the enumeration for view states.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_view_states: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_enum_view_states:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_enum_view_states:action:username:
+	password:
+	</h3><p>Get the enumeration for view states.
+			Returns <a href="HDObjectRefArray.html">HDObjectRefArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_enum_view_states: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_filter_get:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_filter_get:username:
+	password:
+	project_id:
+	</h3><p>Get the filters defined for the specified project.
+			Returns <a href="HDFilterDataArray.html">HDFilterDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_filter_get: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_filter_get:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_filter_get:action:username:
+	password:
+	project_id:
+	</h3><p>Get the filters defined for the specified project.
+			Returns <a href="HDFilterDataArray.html">HDFilterDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_filter_get: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_filter_get_issue_headers:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	filter_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_filter_get_issue_headers:username:
+	password:
+	project_id:
+	filter_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issue headers that match the specified filter and paging details.
+			Returns <a href="HDIssueHeaderDataArray.html">HDIssueHeaderDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_filter_get_issue_headers: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> filter_id: (int) <em>filter_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em></code><h3 id="mc_filter_get_issue_headers:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	filter_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_filter_get_issue_headers:action:username:
+	password:
+	project_id:
+	filter_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issue headers that match the specified filter and paging details.
+			Returns <a href="HDIssueHeaderDataArray.html">HDIssueHeaderDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_filter_get_issue_headers: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> filter_id: (int) <em>filter_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em>;</code><h3 id="mc_filter_get_issues:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	filter_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_filter_get_issues:username:
+	password:
+	project_id:
+	filter_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issues that match the specified filter and paging details.
+			Returns <a href="HDIssueDataArray.html">HDIssueDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_filter_get_issues: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> filter_id: (int) <em>filter_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em></code><h3 id="mc_filter_get_issues:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	filter_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_filter_get_issues:action:username:
+	password:
+	project_id:
+	filter_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issues that match the specified filter and paging details.
+			Returns <a href="HDIssueDataArray.html">HDIssueDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_filter_get_issues: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> filter_id: (int) <em>filter_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em>;</code><h3 id="mc_issue_add:username:&#xD;&#xA;	password:&#xD;&#xA;	issue:&#xD;&#xA;	">mc_issue_add:username:
+	password:
+	issue:
+	</h3><p>Submit the specified issue details.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue: (<a href="HDIssueData.html">HDIssueData*</a> ) <em>issue</em></code><h3 id="mc_issue_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue:&#xD;&#xA;	">mc_issue_add:action:username:
+	password:
+	issue:
+	</h3><p>Submit the specified issue details.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue: (<a href="HDIssueData.html">HDIssueData*</a> ) <em>issue</em>;</code><h3 id="mc_issue_attachment_add:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	name:&#xD;&#xA;	file_type:&#xD;&#xA;	content:&#xD;&#xA;	">mc_issue_attachment_add:username:
+	password:
+	issue_id:
+	name:
+	file_type:
+	content:
+	</h3><p>Submit a new issue attachment.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_attachment_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> name: (NSString*) <em>name</em> file_type: (NSString*) <em>file_type</em> content: (NSData*) <em>content</em></code><h3 id="mc_issue_attachment_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	name:&#xD;&#xA;	file_type:&#xD;&#xA;	content:&#xD;&#xA;	">mc_issue_attachment_add:action:username:
+	password:
+	issue_id:
+	name:
+	file_type:
+	content:
+	</h3><p>Submit a new issue attachment.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_attachment_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> name: (NSString*) <em>name</em> file_type: (NSString*) <em>file_type</em> content: (NSData*) <em>content</em>;</code><h3 id="mc_issue_attachment_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_attachment_id:&#xD;&#xA;	">mc_issue_attachment_delete:username:
+	password:
+	issue_attachment_id:
+	</h3><p>Delete the issue attachment with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_attachment_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_attachment_id: (int) <em>issue_attachment_id</em></code><h3 id="mc_issue_attachment_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_attachment_id:&#xD;&#xA;	">mc_issue_attachment_delete:action:username:
+	password:
+	issue_attachment_id:
+	</h3><p>Delete the issue attachment with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_attachment_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_attachment_id: (int) <em>issue_attachment_id</em>;</code><h3 id="mc_issue_attachment_get:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_attachment_id:&#xD;&#xA;	">mc_issue_attachment_get:username:
+	password:
+	issue_attachment_id:
+	</h3><p>Get the data for the specified issue attachment.
+			Returns NSData* to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_attachment_get: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_attachment_id: (int) <em>issue_attachment_id</em></code><h3 id="mc_issue_attachment_get:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_attachment_id:&#xD;&#xA;	">mc_issue_attachment_get:action:username:
+	password:
+	issue_attachment_id:
+	</h3><p>Get the data for the specified issue attachment.
+			Returns NSData* to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_attachment_get: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_attachment_id: (int) <em>issue_attachment_id</em>;</code><h3 id="mc_issue_checkin:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	comment:&#xD;&#xA;	fixed:&#xD;&#xA;	">mc_issue_checkin:username:
+	password:
+	issue_id:
+	comment:
+	fixed:
+	</h3><p>Notifies MantisBT of a check-in for the issue with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_checkin: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> comment: (NSString*) <em>comment</em> fixed: (BOOL) <em>fixed</em></code><h3 id="mc_issue_checkin:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	comment:&#xD;&#xA;	fixed:&#xD;&#xA;	">mc_issue_checkin:action:username:
+	password:
+	issue_id:
+	comment:
+	fixed:
+	</h3><p>Notifies MantisBT of a check-in for the issue with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_checkin: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> comment: (NSString*) <em>comment</em> fixed: (BOOL) <em>fixed</em>;</code><h3 id="mc_issue_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	">mc_issue_delete:username:
+	password:
+	issue_id:
+	</h3><p>Delete the issue with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em></code><h3 id="mc_issue_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	">mc_issue_delete:action:username:
+	password:
+	issue_id:
+	</h3><p>Delete the issue with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em>;</code><h3 id="mc_issue_exists:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	">mc_issue_exists:username:
+	password:
+	issue_id:
+	</h3><p>Check there exists an issue with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_exists: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em></code><h3 id="mc_issue_exists:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	">mc_issue_exists:action:username:
+	password:
+	issue_id:
+	</h3><p>Check there exists an issue with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_exists: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em>;</code><h3 id="mc_issue_get:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	">mc_issue_get:username:
+	password:
+	issue_id:
+	</h3><p>Get the issue with the specified id.
+			Returns <a href="HDIssueData.html">HDIssueData*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_get: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em></code><h3 id="mc_issue_get:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	">mc_issue_get:action:username:
+	password:
+	issue_id:
+	</h3><p>Get the issue with the specified id.
+			Returns <a href="HDIssueData.html">HDIssueData*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_get: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em>;</code><h3 id="mc_issue_get_biggest_id:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_issue_get_biggest_id:username:
+	password:
+	project_id:
+	</h3><p>Get the latest submitted issue in the specified project.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_get_biggest_id: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_issue_get_biggest_id:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_issue_get_biggest_id:action:username:
+	password:
+	project_id:
+	</h3><p>Get the latest submitted issue in the specified project.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_get_biggest_id: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_issue_get_id_from_summary:username:&#xD;&#xA;	password:&#xD;&#xA;	summary:&#xD;&#xA;	">mc_issue_get_id_from_summary:username:
+	password:
+	summary:
+	</h3><p>Get the id of the issue with the specified summary.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_get_id_from_summary: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> summary: (NSString*) <em>summary</em></code><h3 id="mc_issue_get_id_from_summary:action:username:&#xD;&#xA;	password:&#xD;&#xA;	summary:&#xD;&#xA;	">mc_issue_get_id_from_summary:action:username:
+	password:
+	summary:
+	</h3><p>Get the id of the issue with the specified summary.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_get_id_from_summary: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> summary: (NSString*) <em>summary</em>;</code><h3 id="mc_issue_note_add:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	note:&#xD;&#xA;	">mc_issue_note_add:username:
+	password:
+	issue_id:
+	note:
+	</h3><p>Submit a new note.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_note_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> note: (<a href="HDIssueNoteData.html">HDIssueNoteData*</a> ) <em>note</em></code><h3 id="mc_issue_note_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	note:&#xD;&#xA;	">mc_issue_note_add:action:username:
+	password:
+	issue_id:
+	note:
+	</h3><p>Submit a new note.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_note_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> note: (<a href="HDIssueNoteData.html">HDIssueNoteData*</a> ) <em>note</em>;</code><h3 id="mc_issue_note_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_note_id:&#xD;&#xA;	">mc_issue_note_delete:username:
+	password:
+	issue_note_id:
+	</h3><p>Delete the note with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_note_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_note_id: (int) <em>issue_note_id</em></code><h3 id="mc_issue_note_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_note_id:&#xD;&#xA;	">mc_issue_note_delete:action:username:
+	password:
+	issue_note_id:
+	</h3><p>Delete the note with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_note_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_note_id: (int) <em>issue_note_id</em>;</code><h3 id="mc_issue_note_update:username:&#xD;&#xA;	password:&#xD;&#xA;	note:&#xD;&#xA;	">mc_issue_note_update:username:
+	password:
+	note:
+	</h3><p>Update a specific note of a specific issue.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_note_update: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> note: (<a href="HDIssueNoteData.html">HDIssueNoteData*</a> ) <em>note</em></code><h3 id="mc_issue_note_update:action:username:&#xD;&#xA;	password:&#xD;&#xA;	note:&#xD;&#xA;	">mc_issue_note_update:action:username:
+	password:
+	note:
+	</h3><p>Update a specific note of a specific issue.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_note_update: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> note: (<a href="HDIssueNoteData.html">HDIssueNoteData*</a> ) <em>note</em>;</code><h3 id="mc_issue_relationship_add:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	relationship:&#xD;&#xA;	">mc_issue_relationship_add:username:
+	password:
+	issue_id:
+	relationship:
+	</h3><p>Submit a new relationship.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_relationship_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> relationship: (<a href="HDRelationshipData.html">HDRelationshipData*</a> ) <em>relationship</em></code><h3 id="mc_issue_relationship_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	relationship:&#xD;&#xA;	">mc_issue_relationship_add:action:username:
+	password:
+	issue_id:
+	relationship:
+	</h3><p>Submit a new relationship.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_relationship_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> relationship: (<a href="HDRelationshipData.html">HDRelationshipData*</a> ) <em>relationship</em>;</code><h3 id="mc_issue_relationship_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	relationship_id:&#xD;&#xA;	">mc_issue_relationship_delete:username:
+	password:
+	issue_id:
+	relationship_id:
+	</h3><p>Delete the relationship for the specified issue.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_relationship_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> relationship_id: (int) <em>relationship_id</em></code><h3 id="mc_issue_relationship_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	relationship_id:&#xD;&#xA;	">mc_issue_relationship_delete:action:username:
+	password:
+	issue_id:
+	relationship_id:
+	</h3><p>Delete the relationship for the specified issue.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_relationship_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> relationship_id: (int) <em>relationship_id</em>;</code><h3 id="mc_issue_set_tags:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	tags:&#xD;&#xA;	">mc_issue_set_tags:username:
+	password:
+	issue_id:
+	tags:
+	</h3><p>Sets the tags for a specified issue.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_set_tags: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> tags: (<a href="HDTagDataArray.html">HDTagDataArray*</a> ) <em>tags</em></code><h3 id="mc_issue_set_tags:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issue_id:&#xD;&#xA;	tags:&#xD;&#xA;	">mc_issue_set_tags:action:username:
+	password:
+	issue_id:
+	tags:
+	</h3><p>Sets the tags for a specified issue.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_set_tags: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issue_id: (int) <em>issue_id</em> tags: (<a href="HDTagDataArray.html">HDTagDataArray*</a> ) <em>tags</em>;</code><h3 id="mc_issue_update:username:&#xD;&#xA;	password:&#xD;&#xA;	issueId:&#xD;&#xA;	issue:&#xD;&#xA;	">mc_issue_update:username:
+	password:
+	issueId:
+	issue:
+	</h3><p>Update Issue method.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_update: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issueId: (int) <em>issueId</em> issue: (<a href="HDIssueData.html">HDIssueData*</a> ) <em>issue</em></code><h3 id="mc_issue_update:action:username:&#xD;&#xA;	password:&#xD;&#xA;	issueId:&#xD;&#xA;	issue:&#xD;&#xA;	">mc_issue_update:action:username:
+	password:
+	issueId:
+	issue:
+	</h3><p>Update Issue method.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_issue_update: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> issueId: (int) <em>issueId</em> issue: (<a href="HDIssueData.html">HDIssueData*</a> ) <em>issue</em>;</code><h3 id="mc_project_add:username:&#xD;&#xA;	password:&#xD;&#xA;	project:&#xD;&#xA;	">mc_project_add:username:
+	password:
+	project:
+	</h3><p>Add a new project to the tracker (must have admin privileges)
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project: (<a href="HDProjectData.html">HDProjectData*</a> ) <em>project</em></code><h3 id="mc_project_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project:&#xD;&#xA;	">mc_project_add:action:username:
+	password:
+	project:
+	</h3><p>Add a new project to the tracker (must have admin privileges)
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project: (<a href="HDProjectData.html">HDProjectData*</a> ) <em>project</em>;</code><h3 id="mc_project_add_category:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	p_category_name:&#xD;&#xA;	">mc_project_add_category:username:
+	password:
+	project_id:
+	p_category_name:
+	</h3><p>Add a category of specific project.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_add_category: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> p_category_name: (NSString*) <em>p_category_name</em></code><h3 id="mc_project_add_category:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	p_category_name:&#xD;&#xA;	">mc_project_add_category:action:username:
+	password:
+	project_id:
+	p_category_name:
+	</h3><p>Add a category of specific project.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_add_category: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> p_category_name: (NSString*) <em>p_category_name</em>;</code><h3 id="mc_project_attachment_add:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	name:&#xD;&#xA;	title:&#xD;&#xA;	description:&#xD;&#xA;	file_type:&#xD;&#xA;	content:&#xD;&#xA;	">mc_project_attachment_add:username:
+	password:
+	project_id:
+	name:
+	title:
+	description:
+	file_type:
+	content:
+	</h3><p>Submit a new project attachment.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_attachment_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> name: (NSString*) <em>name</em> title: (NSString*) <em>title</em> description: (NSString*) <em>description</em> file_type: (NSString*) <em>file_type</em> content: (NSData*) <em>content</em></code><h3 id="mc_project_attachment_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	name:&#xD;&#xA;	title:&#xD;&#xA;	description:&#xD;&#xA;	file_type:&#xD;&#xA;	content:&#xD;&#xA;	">mc_project_attachment_add:action:username:
+	password:
+	project_id:
+	name:
+	title:
+	description:
+	file_type:
+	content:
+	</h3><p>Submit a new project attachment.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_attachment_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> name: (NSString*) <em>name</em> title: (NSString*) <em>title</em> description: (NSString*) <em>description</em> file_type: (NSString*) <em>file_type</em> content: (NSData*) <em>content</em>;</code><h3 id="mc_project_attachment_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	project_attachment_id:&#xD;&#xA;	">mc_project_attachment_delete:username:
+	password:
+	project_attachment_id:
+	</h3><p>Delete the project attachment with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_attachment_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_attachment_id: (int) <em>project_attachment_id</em></code><h3 id="mc_project_attachment_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_attachment_id:&#xD;&#xA;	">mc_project_attachment_delete:action:username:
+	password:
+	project_attachment_id:
+	</h3><p>Delete the project attachment with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_attachment_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_attachment_id: (int) <em>project_attachment_id</em>;</code><h3 id="mc_project_attachment_get:username:&#xD;&#xA;	password:&#xD;&#xA;	project_attachment_id:&#xD;&#xA;	">mc_project_attachment_get:username:
+	password:
+	project_attachment_id:
+	</h3><p>Get the data for the specified project attachment.
+			Returns NSData* to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_attachment_get: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_attachment_id: (int) <em>project_attachment_id</em></code><h3 id="mc_project_attachment_get:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_attachment_id:&#xD;&#xA;	">mc_project_attachment_get:action:username:
+	password:
+	project_attachment_id:
+	</h3><p>Get the data for the specified project attachment.
+			Returns NSData* to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_attachment_get: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_attachment_id: (int) <em>project_attachment_id</em>;</code><h3 id="mc_project_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_delete:username:
+	password:
+	project_id:
+	</h3><p>Add a new project to the tracker (must have admin privileges)
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_delete:action:username:
+	password:
+	project_id:
+	</h3><p>Add a new project to the tracker (must have admin privileges)
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_delete_category:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	p_category_name:&#xD;&#xA;	">mc_project_delete_category:username:
+	password:
+	project_id:
+	p_category_name:
+	</h3><p>Delete a category of specific project.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_delete_category: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> p_category_name: (NSString*) <em>p_category_name</em></code><h3 id="mc_project_delete_category:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	p_category_name:&#xD;&#xA;	">mc_project_delete_category:action:username:
+	password:
+	project_id:
+	p_category_name:
+	</h3><p>Delete a category of specific project.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_delete_category: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> p_category_name: (NSString*) <em>p_category_name</em>;</code><h3 id="mc_project_get_all_subprojects:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_all_subprojects:username:
+	password:
+	project_id:
+	</h3><p>Get the subprojects ID of a specific project.
+			Returns <a href="HDStringArray.html">HDStringArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_all_subprojects: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_all_subprojects:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_all_subprojects:action:username:
+	password:
+	project_id:
+	</h3><p>Get the subprojects ID of a specific project.
+			Returns <a href="HDStringArray.html">HDStringArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_all_subprojects: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_get_attachments:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_attachments:username:
+	password:
+	project_id:
+	</h3><p>Get the attachments that belong to the specified project.
+			Returns <a href="HDProjectAttachmentDataArray.html">HDProjectAttachmentDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_attachments: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_attachments:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_attachments:action:username:
+	password:
+	project_id:
+	</h3><p>Get the attachments that belong to the specified project.
+			Returns <a href="HDProjectAttachmentDataArray.html">HDProjectAttachmentDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_attachments: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_get_categories:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_categories:username:
+	password:
+	project_id:
+	</h3><p>Get the categories belonging to the specified project.
+			Returns <a href="HDStringArray.html">HDStringArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_categories: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_categories:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_categories:action:username:
+	password:
+	project_id:
+	</h3><p>Get the categories belonging to the specified project.
+			Returns <a href="HDStringArray.html">HDStringArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_categories: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_get_custom_fields:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_custom_fields:username:
+	password:
+	project_id:
+	</h3><p>Get the custom fields that belong to the specified project.
+			Returns <a href="HDCustomFieldDefinitionDataArray.html">HDCustomFieldDefinitionDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_custom_fields: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_custom_fields:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_custom_fields:action:username:
+	password:
+	project_id:
+	</h3><p>Get the custom fields that belong to the specified project.
+			Returns <a href="HDCustomFieldDefinitionDataArray.html">HDCustomFieldDefinitionDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_custom_fields: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_get_id_from_name:username:&#xD;&#xA;	password:&#xD;&#xA;	project_name:&#xD;&#xA;	">mc_project_get_id_from_name:username:
+	password:
+	project_name:
+	</h3><p>Get the id of the project with the specified name.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_id_from_name: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_name: (NSString*) <em>project_name</em></code><h3 id="mc_project_get_id_from_name:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_name:&#xD;&#xA;	">mc_project_get_id_from_name:action:username:
+	password:
+	project_name:
+	</h3><p>Get the id of the project with the specified name.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_id_from_name: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_name: (NSString*) <em>project_name</em>;</code><h3 id="mc_project_get_issue_headers:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_project_get_issue_headers:username:
+	password:
+	project_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issue headers that match the specified project id and paging details.
+			Returns <a href="HDIssueHeaderDataArray.html">HDIssueHeaderDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_issue_headers: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em></code><h3 id="mc_project_get_issue_headers:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_project_get_issue_headers:action:username:
+	password:
+	project_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issue headers that match the specified project id and paging details.
+			Returns <a href="HDIssueHeaderDataArray.html">HDIssueHeaderDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_issue_headers: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em>;</code><h3 id="mc_project_get_issues:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_project_get_issues:username:
+	password:
+	project_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issues that match the specified project id and paging details.
+			Returns <a href="HDIssueDataArray.html">HDIssueDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_issues: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em></code><h3 id="mc_project_get_issues:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_project_get_issues:action:username:
+	password:
+	project_id:
+	page_number:
+	per_page:
+	</h3><p>Get the issues that match the specified project id and paging details.
+			Returns <a href="HDIssueDataArray.html">HDIssueDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_issues: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em>;</code><h3 id="mc_project_get_released_versions:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_released_versions:username:
+	password:
+	project_id:
+	</h3><p>Get the released versions that belong to the specified project.
+			Returns <a href="HDProjectVersionDataArray.html">HDProjectVersionDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_released_versions: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_released_versions:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_released_versions:action:username:
+	password:
+	project_id:
+	</h3><p>Get the released versions that belong to the specified project.
+			Returns <a href="HDProjectVersionDataArray.html">HDProjectVersionDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_released_versions: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_get_unreleased_versions:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_unreleased_versions:username:
+	password:
+	project_id:
+	</h3><p>Get the unreleased version that belong to the specified project.
+			Returns <a href="HDProjectVersionDataArray.html">HDProjectVersionDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_unreleased_versions: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_unreleased_versions:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_unreleased_versions:action:username:
+	password:
+	project_id:
+	</h3><p>Get the unreleased version that belong to the specified project.
+			Returns <a href="HDProjectVersionDataArray.html">HDProjectVersionDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_unreleased_versions: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_get_users:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	access:&#xD;&#xA;	">mc_project_get_users:username:
+	password:
+	project_id:
+	access:
+	</h3><p>Get appropriate users assigned to a project by access level.
+			Returns <a href="HDAccountDataArray.html">HDAccountDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_users: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> access: (int) <em>access</em></code><h3 id="mc_project_get_users:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	access:&#xD;&#xA;	">mc_project_get_users:action:username:
+	password:
+	project_id:
+	access:
+	</h3><p>Get appropriate users assigned to a project by access level.
+			Returns <a href="HDAccountDataArray.html">HDAccountDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_users: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> access: (int) <em>access</em>;</code><h3 id="mc_project_get_versions:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_versions:username:
+	password:
+	project_id:
+	</h3><p>Get the versions belonging to the specified project.
+			Returns <a href="HDProjectVersionDataArray.html">HDProjectVersionDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_versions: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em></code><h3 id="mc_project_get_versions:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	">mc_project_get_versions:action:username:
+	password:
+	project_id:
+	</h3><p>Get the versions belonging to the specified project.
+			Returns <a href="HDProjectVersionDataArray.html">HDProjectVersionDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_get_versions: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em>;</code><h3 id="mc_project_rename_category_by_name:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	p_category_name:&#xD;&#xA;	p_category_name_new:&#xD;&#xA;	p_assigned_to:&#xD;&#xA;	">mc_project_rename_category_by_name:username:
+	password:
+	project_id:
+	p_category_name:
+	p_category_name_new:
+	p_assigned_to:
+	</h3><p>Rename a category of specific project.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_rename_category_by_name: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> p_category_name: (NSString*) <em>p_category_name</em> p_category_name_new: (NSString*) <em>p_category_name_new</em> p_assigned_to: (int) <em>p_assigned_to</em></code><h3 id="mc_project_rename_category_by_name:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	p_category_name:&#xD;&#xA;	p_category_name_new:&#xD;&#xA;	p_assigned_to:&#xD;&#xA;	">mc_project_rename_category_by_name:action:username:
+	password:
+	project_id:
+	p_category_name:
+	p_category_name_new:
+	p_assigned_to:
+	</h3><p>Rename a category of specific project.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_rename_category_by_name: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> p_category_name: (NSString*) <em>p_category_name</em> p_category_name_new: (NSString*) <em>p_category_name_new</em> p_assigned_to: (int) <em>p_assigned_to</em>;</code><h3 id="mc_project_update:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	project:&#xD;&#xA;	">mc_project_update:username:
+	password:
+	project_id:
+	project:
+	</h3><p>Update a specific project to the tracker (must have admin privileges)
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_update: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> project: (<a href="HDProjectData.html">HDProjectData*</a> ) <em>project</em></code><h3 id="mc_project_update:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	project:&#xD;&#xA;	">mc_project_update:action:username:
+	password:
+	project_id:
+	project:
+	</h3><p>Update a specific project to the tracker (must have admin privileges)
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_update: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> project: (<a href="HDProjectData.html">HDProjectData*</a> ) <em>project</em>;</code><h3 id="mc_project_version_add:username:&#xD;&#xA;	password:&#xD;&#xA;	version:&#xD;&#xA;	">mc_project_version_add:username:
+	password:
+	version:
+	</h3><p>Submit the specified version details.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_version_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> version: (<a href="HDProjectVersionData.html">HDProjectVersionData*</a> ) <em>version</em></code><h3 id="mc_project_version_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	version:&#xD;&#xA;	">mc_project_version_add:action:username:
+	password:
+	version:
+	</h3><p>Submit the specified version details.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_version_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> version: (<a href="HDProjectVersionData.html">HDProjectVersionData*</a> ) <em>version</em>;</code><h3 id="mc_project_version_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	version_id:&#xD;&#xA;	">mc_project_version_delete:username:
+	password:
+	version_id:
+	</h3><p>Delete the version with the specified id.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_version_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> version_id: (int) <em>version_id</em></code><h3 id="mc_project_version_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	version_id:&#xD;&#xA;	">mc_project_version_delete:action:username:
+	password:
+	version_id:
+	</h3><p>Delete the version with the specified id.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_version_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> version_id: (int) <em>version_id</em>;</code><h3 id="mc_project_version_update:username:&#xD;&#xA;	password:&#xD;&#xA;	version_id:&#xD;&#xA;	version:&#xD;&#xA;	">mc_project_version_update:username:
+	password:
+	version_id:
+	version:
+	</h3><p>Update version method.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_version_update: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> version_id: (int) <em>version_id</em> version: (<a href="HDProjectVersionData.html">HDProjectVersionData*</a> ) <em>version</em></code><h3 id="mc_project_version_update:action:username:&#xD;&#xA;	password:&#xD;&#xA;	version_id:&#xD;&#xA;	version:&#xD;&#xA;	">mc_project_version_update:action:username:
+	password:
+	version_id:
+	version:
+	</h3><p>Update version method.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_project_version_update: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> version_id: (int) <em>version_id</em> version: (<a href="HDProjectVersionData.html">HDProjectVersionData*</a> ) <em>version</em>;</code><h3 id="mc_projects_get_user_accessible:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_projects_get_user_accessible:username:
+	password:
+	</h3><p>Get the list of projects that are accessible to the logged in user.
+			Returns <a href="HDProjectDataArray.html">HDProjectDataArray*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_projects_get_user_accessible: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em></code><h3 id="mc_projects_get_user_accessible:action:username:&#xD;&#xA;	password:&#xD;&#xA;	">mc_projects_get_user_accessible:action:username:
+	password:
+	</h3><p>Get the list of projects that are accessible to the logged in user.
+			Returns <a href="HDProjectDataArray.html">HDProjectDataArray*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_projects_get_user_accessible: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em>;</code><h3 id="mc_tag_add:username:&#xD;&#xA;	password:&#xD;&#xA;	tag:&#xD;&#xA;	">mc_tag_add:username:
+	password:
+	tag:
+	</h3><p>Creates a tag.
+			Returns int to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_tag_add: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> tag: (<a href="HDTagData.html">HDTagData*</a> ) <em>tag</em></code><h3 id="mc_tag_add:action:username:&#xD;&#xA;	password:&#xD;&#xA;	tag:&#xD;&#xA;	">mc_tag_add:action:username:
+	password:
+	tag:
+	</h3><p>Creates a tag.
+			Returns int to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_tag_add: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> tag: (<a href="HDTagData.html">HDTagData*</a> ) <em>tag</em>;</code><h3 id="mc_tag_delete:username:&#xD;&#xA;	password:&#xD;&#xA;	tag_id:&#xD;&#xA;	">mc_tag_delete:username:
+	password:
+	tag_id:
+	</h3><p>Deletes a tag.
+			Returns BOOL to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_tag_delete: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> tag_id: (int) <em>tag_id</em></code><h3 id="mc_tag_delete:action:username:&#xD;&#xA;	password:&#xD;&#xA;	tag_id:&#xD;&#xA;	">mc_tag_delete:action:username:
+	password:
+	tag_id:
+	</h3><p>Deletes a tag.
+			Returns BOOL to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_tag_delete: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> tag_id: (int) <em>tag_id</em>;</code><h3 id="mc_tag_get_all:username:&#xD;&#xA;	password:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_tag_get_all:username:
+	password:
+	page_number:
+	per_page:
+	</h3><p>Gets all the tags.
+			Returns <a href="HDTagDataSearchResult.html">HDTagDataSearchResult*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_tag_get_all: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em></code><h3 id="mc_tag_get_all:action:username:&#xD;&#xA;	password:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_tag_get_all:action:username:
+	password:
+	page_number:
+	per_page:
+	</h3><p>Gets all the tags.
+			Returns <a href="HDTagDataSearchResult.html">HDTagDataSearchResult*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_tag_get_all: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em>;</code><h3 id="mc_user_pref_get_pref:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	pref_name:&#xD;&#xA;	">mc_user_pref_get_pref:username:
+	password:
+	project_id:
+	pref_name:
+	</h3><p>Get the value for the specified user preference.
+			Returns NSString* to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_user_pref_get_pref: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> pref_name: (NSString*) <em>pref_name</em></code><h3 id="mc_user_pref_get_pref:action:username:&#xD;&#xA;	password:&#xD;&#xA;	project_id:&#xD;&#xA;	pref_name:&#xD;&#xA;	">mc_user_pref_get_pref:action:username:
+	password:
+	project_id:
+	pref_name:
+	</h3><p>Get the value for the specified user preference.
+			Returns NSString* to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_user_pref_get_pref: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> project_id: (int) <em>project_id</em> pref_name: (NSString*) <em>pref_name</em>;</code><h3 id="mc_user_profiles_get_all:username:&#xD;&#xA;	password:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_user_profiles_get_all:username:
+	password:
+	page_number:
+	per_page:
+	</h3><p>Get profiles available to the current user.
+			Returns <a href="HDProfileDataSearchResult.html">HDProfileDataSearchResult*</a> to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_user_profiles_get_all: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em></code><h3 id="mc_user_profiles_get_all:action:username:&#xD;&#xA;	password:&#xD;&#xA;	page_number:&#xD;&#xA;	per_page:&#xD;&#xA;	">mc_user_profiles_get_all:action:username:
+	password:
+	page_number:
+	per_page:
+	</h3><p>Get profiles available to the current user.
+			Returns <a href="HDProfileDataSearchResult.html">HDProfileDataSearchResult*</a> to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_user_profiles_get_all: (id) target action: (SEL) action username: (NSString*) <em>username</em> password: (NSString*) <em>password</em> page_number: (int) <em>page_number</em> per_page: (int) <em>per_page</em>;</code><h3 id="mc_version:">mc_version:</h3><p>
+			Returns NSString* to the designated <a href="../framework/SoapDelegate.html">SoapDelegate</a>.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_version: (id &lt;<a href="../framework/SoapDelegate.html">SoapDelegate</a>&gt;) handler</code><h3 id="mc_version:action:">mc_version:action:</h3><p>
+			Returns NSString* to the specified target/action receiver.
+		</p><code>- (<a href="../framework/SoapRequest.html">SoapRequest*</a>) mc_version: (id) target action: (SEL) action;</code><div id="footer">Documentation generated by <a href="http://sudzc.com" target="_blank">SudzC</a>.</div></body></html>
