@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C71DCE110B5D9F008E8718 /* SudzCExamplesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */; };
+		10C71E6E110B5EC0008E8718 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */; };
+		136A8CEDF428CEE718089AAA /* HDMantisConnectExample.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEF48CEE718089AAA /* HDMantisConnectExample.h */; };
+		136A8CEDF438CEE718089AAA /* HDMantisConnectExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEF58CEE718089AAA /* HDMantisConnectExample.m */; };
+		136A8CEDF448CEE718089AAA /* HDAccountData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEF68CEE718089AAA /* HDAccountData.h */; };
+		136A8CEDF458CEE718089AAA /* HDAccountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEF78CEE718089AAA /* HDAccountData.m */; };
+		136A8CEDF468CEE718089AAA /* HDAccountDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEF88CEE718089AAA /* HDAccountDataArray.h */; };
+		136A8CEDF478CEE718089AAA /* HDAccountDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEF98CEE718089AAA /* HDAccountDataArray.m */; };
+		136A8CEDF488CEE718089AAA /* HDAttachmentData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEFA8CEE718089AAA /* HDAttachmentData.h */; };
+		136A8CEDF498CEE718089AAA /* HDAttachmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEFB8CEE718089AAA /* HDAttachmentData.m */; };
+		136A8CEDF4A8CEE718089AAA /* HDAttachmentDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEFC8CEE718089AAA /* HDAttachmentDataArray.h */; };
+		136A8CEDF4B8CEE718089AAA /* HDAttachmentDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEFD8CEE718089AAA /* HDAttachmentDataArray.m */; };
+		136A8CEDF4C8CEE718089AAA /* HDCustomFieldDefinitionData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEFE8CEE718089AAA /* HDCustomFieldDefinitionData.h */; };
+		136A8CEDF4D8CEE718089AAA /* HDCustomFieldDefinitionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDEFF8CEE718089AAA /* HDCustomFieldDefinitionData.m */; };
+		136A8CEDF4E8CEE718089AAA /* HDCustomFieldDefinitionDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF008CEE718089AAA /* HDCustomFieldDefinitionDataArray.h */; };
+		136A8CEDF4F8CEE718089AAA /* HDCustomFieldDefinitionDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF018CEE718089AAA /* HDCustomFieldDefinitionDataArray.m */; };
+		136A8CEDF508CEE718089AAA /* HDCustomFieldLinkForProjectData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF028CEE718089AAA /* HDCustomFieldLinkForProjectData.h */; };
+		136A8CEDF518CEE718089AAA /* HDCustomFieldLinkForProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF038CEE718089AAA /* HDCustomFieldLinkForProjectData.m */; };
+		136A8CEDF528CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF048CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.h */; };
+		136A8CEDF538CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF058CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.m */; };
+		136A8CEDF548CEE718089AAA /* HDCustomFieldValueForIssueData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF068CEE718089AAA /* HDCustomFieldValueForIssueData.h */; };
+		136A8CEDF558CEE718089AAA /* HDCustomFieldValueForIssueData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF078CEE718089AAA /* HDCustomFieldValueForIssueData.m */; };
+		136A8CEDF568CEE718089AAA /* HDCustomFieldValueForIssueDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF088CEE718089AAA /* HDCustomFieldValueForIssueDataArray.h */; };
+		136A8CEDF578CEE718089AAA /* HDCustomFieldValueForIssueDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF098CEE718089AAA /* HDCustomFieldValueForIssueDataArray.m */; };
+		136A8CEDF588CEE718089AAA /* HDFilterData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF0A8CEE718089AAA /* HDFilterData.h */; };
+		136A8CEDF598CEE718089AAA /* HDFilterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF0B8CEE718089AAA /* HDFilterData.m */; };
+		136A8CEDF5A8CEE718089AAA /* HDFilterDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF0C8CEE718089AAA /* HDFilterDataArray.h */; };
+		136A8CEDF5B8CEE718089AAA /* HDFilterDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF0D8CEE718089AAA /* HDFilterDataArray.m */; };
+		136A8CEDF5C8CEE718089AAA /* HDIssueData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF0E8CEE718089AAA /* HDIssueData.h */; };
+		136A8CEDF5D8CEE718089AAA /* HDIssueData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF0F8CEE718089AAA /* HDIssueData.m */; };
+		136A8CEDF5E8CEE718089AAA /* HDIssueDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF108CEE718089AAA /* HDIssueDataArray.h */; };
+		136A8CEDF5F8CEE718089AAA /* HDIssueDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF118CEE718089AAA /* HDIssueDataArray.m */; };
+		136A8CEDF608CEE718089AAA /* HDIssueHeaderData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF128CEE718089AAA /* HDIssueHeaderData.h */; };
+		136A8CEDF618CEE718089AAA /* HDIssueHeaderData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF138CEE718089AAA /* HDIssueHeaderData.m */; };
+		136A8CEDF628CEE718089AAA /* HDIssueHeaderDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF148CEE718089AAA /* HDIssueHeaderDataArray.h */; };
+		136A8CEDF638CEE718089AAA /* HDIssueHeaderDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF158CEE718089AAA /* HDIssueHeaderDataArray.m */; };
+		136A8CEDF648CEE718089AAA /* HDIssueNoteData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF168CEE718089AAA /* HDIssueNoteData.h */; };
+		136A8CEDF658CEE718089AAA /* HDIssueNoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF178CEE718089AAA /* HDIssueNoteData.m */; };
+		136A8CEDF668CEE718089AAA /* HDIssueNoteDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF188CEE718089AAA /* HDIssueNoteDataArray.h */; };
+		136A8CEDF678CEE718089AAA /* HDIssueNoteDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF198CEE718089AAA /* HDIssueNoteDataArray.m */; };
+		136A8CEDF688CEE718089AAA /* HDMantisConnect.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF1A8CEE718089AAA /* HDMantisConnect.h */; };
+		136A8CEDF698CEE718089AAA /* HDMantisConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF1B8CEE718089AAA /* HDMantisConnect.m */; };
+		136A8CEDF6A8CEE718089AAA /* HDObjectRef.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF1C8CEE718089AAA /* HDObjectRef.h */; };
+		136A8CEDF6B8CEE718089AAA /* HDObjectRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF1D8CEE718089AAA /* HDObjectRef.m */; };
+		136A8CEDF6C8CEE718089AAA /* HDObjectRefArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF1E8CEE718089AAA /* HDObjectRefArray.h */; };
+		136A8CEDF6D8CEE718089AAA /* HDObjectRefArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF1F8CEE718089AAA /* HDObjectRefArray.m */; };
+		136A8CEDF6E8CEE718089AAA /* HDProfileData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF208CEE718089AAA /* HDProfileData.h */; };
+		136A8CEDF6F8CEE718089AAA /* HDProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF218CEE718089AAA /* HDProfileData.m */; };
+		136A8CEDF708CEE718089AAA /* HDProfileDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF228CEE718089AAA /* HDProfileDataArray.h */; };
+		136A8CEDF718CEE718089AAA /* HDProfileDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF238CEE718089AAA /* HDProfileDataArray.m */; };
+		136A8CEDF728CEE718089AAA /* HDProfileDataSearchResult.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF248CEE718089AAA /* HDProfileDataSearchResult.h */; };
+		136A8CEDF738CEE718089AAA /* HDProfileDataSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF258CEE718089AAA /* HDProfileDataSearchResult.m */; };
+		136A8CEDF748CEE718089AAA /* HDProjectAttachmentData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF268CEE718089AAA /* HDProjectAttachmentData.h */; };
+		136A8CEDF758CEE718089AAA /* HDProjectAttachmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF278CEE718089AAA /* HDProjectAttachmentData.m */; };
+		136A8CEDF768CEE718089AAA /* HDProjectAttachmentDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF288CEE718089AAA /* HDProjectAttachmentDataArray.h */; };
+		136A8CEDF778CEE718089AAA /* HDProjectAttachmentDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF298CEE718089AAA /* HDProjectAttachmentDataArray.m */; };
+		136A8CEDF788CEE718089AAA /* HDProjectData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF2A8CEE718089AAA /* HDProjectData.h */; };
+		136A8CEDF798CEE718089AAA /* HDProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF2B8CEE718089AAA /* HDProjectData.m */; };
+		136A8CEDF7A8CEE718089AAA /* HDProjectDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF2C8CEE718089AAA /* HDProjectDataArray.h */; };
+		136A8CEDF7B8CEE718089AAA /* HDProjectDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF2D8CEE718089AAA /* HDProjectDataArray.m */; };
+		136A8CEDF7C8CEE718089AAA /* HDProjectVersionData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF2E8CEE718089AAA /* HDProjectVersionData.h */; };
+		136A8CEDF7D8CEE718089AAA /* HDProjectVersionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF2F8CEE718089AAA /* HDProjectVersionData.m */; };
+		136A8CEDF7E8CEE718089AAA /* HDProjectVersionDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF308CEE718089AAA /* HDProjectVersionDataArray.h */; };
+		136A8CEDF7F8CEE718089AAA /* HDProjectVersionDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF318CEE718089AAA /* HDProjectVersionDataArray.m */; };
+		136A8CEDF808CEE718089AAA /* HDRelationshipData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF328CEE718089AAA /* HDRelationshipData.h */; };
+		136A8CEDF818CEE718089AAA /* HDRelationshipData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF338CEE718089AAA /* HDRelationshipData.m */; };
+		136A8CEDF828CEE718089AAA /* HDRelationshipDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF348CEE718089AAA /* HDRelationshipDataArray.h */; };
+		136A8CEDF838CEE718089AAA /* HDRelationshipDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF358CEE718089AAA /* HDRelationshipDataArray.m */; };
+		136A8CEDF848CEE718089AAA /* HDServices.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF368CEE718089AAA /* HDServices.h */; };
+		136A8CEDF858CEE718089AAA /* HDServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF378CEE718089AAA /* HDServices.m */; };
+		136A8CEDF868CEE718089AAA /* HDStringArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF388CEE718089AAA /* HDStringArray.h */; };
+		136A8CEDF878CEE718089AAA /* HDStringArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF398CEE718089AAA /* HDStringArray.m */; };
+		136A8CEDF888CEE718089AAA /* HDTagData.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF3A8CEE718089AAA /* HDTagData.h */; };
+		136A8CEDF898CEE718089AAA /* HDTagData.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF3B8CEE718089AAA /* HDTagData.m */; };
+		136A8CEDF8A8CEE718089AAA /* HDTagDataArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF3C8CEE718089AAA /* HDTagDataArray.h */; };
+		136A8CEDF8B8CEE718089AAA /* HDTagDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF3D8CEE718089AAA /* HDTagDataArray.m */; };
+		136A8CEDF8C8CEE718089AAA /* HDTagDataSearchResult.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF3E8CEE718089AAA /* HDTagDataSearchResult.h */; };
+		136A8CEDF8D8CEE718089AAA /* HDTagDataSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF3F8CEE718089AAA /* HDTagDataSearchResult.m */; };
+		136A8CEDF8E8CEE718089AAA /* Soap+Prefix.h in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF408CEE718089AAA /* Soap+Prefix.h */; };
+		136A8CEDF8F8CEE718089AAA /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 136A8CEDF418CEE718089AAA /* Soap+Prefix.m */; };
+
+		1067D05812B7BA3D005BBFFD /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */; };
+		10C72023110C0A71008E8718 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F93110C0A71008E8718 /* NSData+Base64.m */; };
+		10C72024110C0A71008E8718 /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F95110C0A71008E8718 /* Soap.m */; };
+		10C72025110C0A71008E8718 /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F97110C0A71008E8718 /* SoapArray.m */; };
+		10C72027110C0A71008E8718 /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F9C110C0A71008E8718 /* SoapFault.m */; };
+		10C72028110C0A71008E8718 /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F9E110C0A71008E8718 /* SoapHandler.m */; };
+		10C72029110C0A71008E8718 /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA0110C0A71008E8718 /* SoapNil.m */; };
+		107DACA91217305B00F18A8A /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 107DACA71217305B00F18A8A /* SoapLiteral.m */; };
+		10C7202A110C0A71008E8718 /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA2110C0A71008E8718 /* SoapObject.m */; };
+		10C7202B110C0A71008E8718 /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA4110C0A71008E8718 /* SoapParameter.m */; };
+		10C7202C110C0A71008E8718 /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA6110C0A71008E8718 /* SoapReachability.m */; };
+		10C7202D110C0A71008E8718 /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA8110C0A71008E8718 /* SoapRequest.m */; };
+		10C7202E110C0A71008E8718 /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAA110C0A71008E8718 /* SoapService.m */; };
+		10C7202F110C0A71008E8718 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAD110C0A71008E8718 /* CXMLDocument.m */; };
+		10C72030110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */; };
+		10C72031110C0A71008E8718 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB1110C0A71008E8718 /* CXMLElement.m */; };
+		10C72032110C0A71008E8718 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB3110C0A71008E8718 /* CXMLNode.m */; };
+		10C72033110C0A71008E8718 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */; };
+		10C72034110C0A71008E8718 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudzCExamplesAppDelegate.m; sourceTree = "<group>"; };
+		10C71DCD110B5D9F008E8718 /* SudzCExamplesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudzCExamplesAppDelegate.h; sourceTree = "<group>"; };
+		10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		136A8CEDEF48CEE718089AAA /* HDMantisConnectExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDMantisConnectExample.h"; sourceTree = "<group>"; };
+		136A8CEDEF58CEE718089AAA /* HDMantisConnectExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDMantisConnectExample.m"; sourceTree = "<group>"; };
+		136A8CEDEF68CEE718089AAA /* HDAccountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDAccountData.h"; sourceTree = "<group>"; };
+		136A8CEDEF78CEE718089AAA /* HDAccountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDAccountData.m"; sourceTree = "<group>"; };
+		136A8CEDEF88CEE718089AAA /* HDAccountDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDAccountDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDEF98CEE718089AAA /* HDAccountDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDAccountDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDEFA8CEE718089AAA /* HDAttachmentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDAttachmentData.h"; sourceTree = "<group>"; };
+		136A8CEDEFB8CEE718089AAA /* HDAttachmentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDAttachmentData.m"; sourceTree = "<group>"; };
+		136A8CEDEFC8CEE718089AAA /* HDAttachmentDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDAttachmentDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDEFD8CEE718089AAA /* HDAttachmentDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDAttachmentDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDEFE8CEE718089AAA /* HDCustomFieldDefinitionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDCustomFieldDefinitionData.h"; sourceTree = "<group>"; };
+		136A8CEDEFF8CEE718089AAA /* HDCustomFieldDefinitionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDCustomFieldDefinitionData.m"; sourceTree = "<group>"; };
+		136A8CEDF008CEE718089AAA /* HDCustomFieldDefinitionDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDCustomFieldDefinitionDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF018CEE718089AAA /* HDCustomFieldDefinitionDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDCustomFieldDefinitionDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF028CEE718089AAA /* HDCustomFieldLinkForProjectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDCustomFieldLinkForProjectData.h"; sourceTree = "<group>"; };
+		136A8CEDF038CEE718089AAA /* HDCustomFieldLinkForProjectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDCustomFieldLinkForProjectData.m"; sourceTree = "<group>"; };
+		136A8CEDF048CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDCustomFieldLinkForProjectDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF058CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDCustomFieldLinkForProjectDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF068CEE718089AAA /* HDCustomFieldValueForIssueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDCustomFieldValueForIssueData.h"; sourceTree = "<group>"; };
+		136A8CEDF078CEE718089AAA /* HDCustomFieldValueForIssueData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDCustomFieldValueForIssueData.m"; sourceTree = "<group>"; };
+		136A8CEDF088CEE718089AAA /* HDCustomFieldValueForIssueDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDCustomFieldValueForIssueDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF098CEE718089AAA /* HDCustomFieldValueForIssueDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDCustomFieldValueForIssueDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF0A8CEE718089AAA /* HDFilterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDFilterData.h"; sourceTree = "<group>"; };
+		136A8CEDF0B8CEE718089AAA /* HDFilterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDFilterData.m"; sourceTree = "<group>"; };
+		136A8CEDF0C8CEE718089AAA /* HDFilterDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDFilterDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF0D8CEE718089AAA /* HDFilterDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDFilterDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF0E8CEE718089AAA /* HDIssueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDIssueData.h"; sourceTree = "<group>"; };
+		136A8CEDF0F8CEE718089AAA /* HDIssueData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDIssueData.m"; sourceTree = "<group>"; };
+		136A8CEDF108CEE718089AAA /* HDIssueDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDIssueDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF118CEE718089AAA /* HDIssueDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDIssueDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF128CEE718089AAA /* HDIssueHeaderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDIssueHeaderData.h"; sourceTree = "<group>"; };
+		136A8CEDF138CEE718089AAA /* HDIssueHeaderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDIssueHeaderData.m"; sourceTree = "<group>"; };
+		136A8CEDF148CEE718089AAA /* HDIssueHeaderDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDIssueHeaderDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF158CEE718089AAA /* HDIssueHeaderDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDIssueHeaderDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF168CEE718089AAA /* HDIssueNoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDIssueNoteData.h"; sourceTree = "<group>"; };
+		136A8CEDF178CEE718089AAA /* HDIssueNoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDIssueNoteData.m"; sourceTree = "<group>"; };
+		136A8CEDF188CEE718089AAA /* HDIssueNoteDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDIssueNoteDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF198CEE718089AAA /* HDIssueNoteDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDIssueNoteDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF1A8CEE718089AAA /* HDMantisConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDMantisConnect.h"; sourceTree = "<group>"; };
+		136A8CEDF1B8CEE718089AAA /* HDMantisConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDMantisConnect.m"; sourceTree = "<group>"; };
+		136A8CEDF1C8CEE718089AAA /* HDObjectRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDObjectRef.h"; sourceTree = "<group>"; };
+		136A8CEDF1D8CEE718089AAA /* HDObjectRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDObjectRef.m"; sourceTree = "<group>"; };
+		136A8CEDF1E8CEE718089AAA /* HDObjectRefArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDObjectRefArray.h"; sourceTree = "<group>"; };
+		136A8CEDF1F8CEE718089AAA /* HDObjectRefArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDObjectRefArray.m"; sourceTree = "<group>"; };
+		136A8CEDF208CEE718089AAA /* HDProfileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProfileData.h"; sourceTree = "<group>"; };
+		136A8CEDF218CEE718089AAA /* HDProfileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProfileData.m"; sourceTree = "<group>"; };
+		136A8CEDF228CEE718089AAA /* HDProfileDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProfileDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF238CEE718089AAA /* HDProfileDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProfileDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF248CEE718089AAA /* HDProfileDataSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProfileDataSearchResult.h"; sourceTree = "<group>"; };
+		136A8CEDF258CEE718089AAA /* HDProfileDataSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProfileDataSearchResult.m"; sourceTree = "<group>"; };
+		136A8CEDF268CEE718089AAA /* HDProjectAttachmentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProjectAttachmentData.h"; sourceTree = "<group>"; };
+		136A8CEDF278CEE718089AAA /* HDProjectAttachmentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProjectAttachmentData.m"; sourceTree = "<group>"; };
+		136A8CEDF288CEE718089AAA /* HDProjectAttachmentDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProjectAttachmentDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF298CEE718089AAA /* HDProjectAttachmentDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProjectAttachmentDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF2A8CEE718089AAA /* HDProjectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProjectData.h"; sourceTree = "<group>"; };
+		136A8CEDF2B8CEE718089AAA /* HDProjectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProjectData.m"; sourceTree = "<group>"; };
+		136A8CEDF2C8CEE718089AAA /* HDProjectDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProjectDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF2D8CEE718089AAA /* HDProjectDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProjectDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF2E8CEE718089AAA /* HDProjectVersionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProjectVersionData.h"; sourceTree = "<group>"; };
+		136A8CEDF2F8CEE718089AAA /* HDProjectVersionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProjectVersionData.m"; sourceTree = "<group>"; };
+		136A8CEDF308CEE718089AAA /* HDProjectVersionDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDProjectVersionDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF318CEE718089AAA /* HDProjectVersionDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDProjectVersionDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF328CEE718089AAA /* HDRelationshipData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDRelationshipData.h"; sourceTree = "<group>"; };
+		136A8CEDF338CEE718089AAA /* HDRelationshipData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDRelationshipData.m"; sourceTree = "<group>"; };
+		136A8CEDF348CEE718089AAA /* HDRelationshipDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDRelationshipDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF358CEE718089AAA /* HDRelationshipDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDRelationshipDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF368CEE718089AAA /* HDServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDServices.h"; sourceTree = "<group>"; };
+		136A8CEDF378CEE718089AAA /* HDServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDServices.m"; sourceTree = "<group>"; };
+		136A8CEDF388CEE718089AAA /* HDStringArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDStringArray.h"; sourceTree = "<group>"; };
+		136A8CEDF398CEE718089AAA /* HDStringArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDStringArray.m"; sourceTree = "<group>"; };
+		136A8CEDF3A8CEE718089AAA /* HDTagData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDTagData.h"; sourceTree = "<group>"; };
+		136A8CEDF3B8CEE718089AAA /* HDTagData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDTagData.m"; sourceTree = "<group>"; };
+		136A8CEDF3C8CEE718089AAA /* HDTagDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDTagDataArray.h"; sourceTree = "<group>"; };
+		136A8CEDF3D8CEE718089AAA /* HDTagDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDTagDataArray.m"; sourceTree = "<group>"; };
+		136A8CEDF3E8CEE718089AAA /* HDTagDataSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDTagDataSearchResult.h"; sourceTree = "<group>"; };
+		136A8CEDF3F8CEE718089AAA /* HDTagDataSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDTagDataSearchResult.m"; sourceTree = "<group>"; };
+		136A8CEDF408CEE718089AAA /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		136A8CEDF418CEE718089AAA /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+
+		1067D05612B7BA3D005BBFFD /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		10C71F92110C0A71008E8718 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		10C71F93110C0A71008E8718 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		10C71F94110C0A71008E8718 /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		10C71F95110C0A71008E8718 /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		10C71F96110C0A71008E8718 /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		10C71F97110C0A71008E8718 /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		10C71F98110C0A71008E8718 /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		10C71F9B110C0A71008E8718 /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		10C71F9C110C0A71008E8718 /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		10C71F9D110C0A71008E8718 /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		10C71F9E110C0A71008E8718 /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		107DACA71217305B00F18A8A /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		107DACA81217305B00F18A8A /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		10C71F9F110C0A71008E8718 /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		10C71FA0110C0A71008E8718 /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		10C71FA1110C0A71008E8718 /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		10C71FA2110C0A71008E8718 /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		10C71FA3110C0A71008E8718 /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		10C71FA4110C0A71008E8718 /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		10C71FA5110C0A71008E8718 /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		10C71FA6110C0A71008E8718 /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		10C71FA7110C0A71008E8718 /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		10C71FA8110C0A71008E8718 /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		10C71FA9110C0A71008E8718 /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		10C71FAA110C0A71008E8718 /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		10C71FAC110C0A71008E8718 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		10C71FAD110C0A71008E8718 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		10C71FAE110C0A71008E8718 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		10C71FB0110C0A71008E8718 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		10C71FB1110C0A71008E8718 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		10C71FB2110C0A71008E8718 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		10C71FB3110C0A71008E8718 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		10C71FB4110C0A71008E8718 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		10C71FB6110C0A71008E8718 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };		
+		10C71FB8110C0A71008E8718 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SudzCExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudzCExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SudzCExamples_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudzCExamples_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SudzCExamples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SudzCExamples-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				10C71E6E110B5EC0008E8718 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C71DC8110B5D8E008E8718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */,
+				10C71DCD110B5D9F008E8718 /* SudzCExamplesAppDelegate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		10C71EBB110C0A71008E8718 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1027CDDE110CDB4A00147F52 /* Examples */,
+				10C71EBC110C0A71008E8718 /* Generated */,
+				10C71F91110C0A71008E8718 /* Soap */,
+				10C71FAB110C0A71008E8718 /* TouchXML */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		1027CDDE110CDB4A00147F52 /* Examples */ = {
+
+			isa = PBXGroup;
+
+			children = (
+
+				136A8CEDEF48CEE718089AAA /* HDMantisConnectExample.h */,
+				136A8CEDEF58CEE718089AAA /* HDMantisConnectExample.m */,
+
+
+			);
+
+			path = Examples;
+
+			sourceTree = "<group>";
+
+		};
+		10C71EBC110C0A71008E8718 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				136A8CEDEF68CEE718089AAA /* HDAccountData.h */,
+				136A8CEDEF78CEE718089AAA /* HDAccountData.m */,
+				136A8CEDEF88CEE718089AAA /* HDAccountDataArray.h */,
+				136A8CEDEF98CEE718089AAA /* HDAccountDataArray.m */,
+				136A8CEDEFA8CEE718089AAA /* HDAttachmentData.h */,
+				136A8CEDEFB8CEE718089AAA /* HDAttachmentData.m */,
+				136A8CEDEFC8CEE718089AAA /* HDAttachmentDataArray.h */,
+				136A8CEDEFD8CEE718089AAA /* HDAttachmentDataArray.m */,
+				136A8CEDEFE8CEE718089AAA /* HDCustomFieldDefinitionData.h */,
+				136A8CEDEFF8CEE718089AAA /* HDCustomFieldDefinitionData.m */,
+				136A8CEDF008CEE718089AAA /* HDCustomFieldDefinitionDataArray.h */,
+				136A8CEDF018CEE718089AAA /* HDCustomFieldDefinitionDataArray.m */,
+				136A8CEDF028CEE718089AAA /* HDCustomFieldLinkForProjectData.h */,
+				136A8CEDF038CEE718089AAA /* HDCustomFieldLinkForProjectData.m */,
+				136A8CEDF048CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.h */,
+				136A8CEDF058CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.m */,
+				136A8CEDF068CEE718089AAA /* HDCustomFieldValueForIssueData.h */,
+				136A8CEDF078CEE718089AAA /* HDCustomFieldValueForIssueData.m */,
+				136A8CEDF088CEE718089AAA /* HDCustomFieldValueForIssueDataArray.h */,
+				136A8CEDF098CEE718089AAA /* HDCustomFieldValueForIssueDataArray.m */,
+				136A8CEDF0A8CEE718089AAA /* HDFilterData.h */,
+				136A8CEDF0B8CEE718089AAA /* HDFilterData.m */,
+				136A8CEDF0C8CEE718089AAA /* HDFilterDataArray.h */,
+				136A8CEDF0D8CEE718089AAA /* HDFilterDataArray.m */,
+				136A8CEDF0E8CEE718089AAA /* HDIssueData.h */,
+				136A8CEDF0F8CEE718089AAA /* HDIssueData.m */,
+				136A8CEDF108CEE718089AAA /* HDIssueDataArray.h */,
+				136A8CEDF118CEE718089AAA /* HDIssueDataArray.m */,
+				136A8CEDF128CEE718089AAA /* HDIssueHeaderData.h */,
+				136A8CEDF138CEE718089AAA /* HDIssueHeaderData.m */,
+				136A8CEDF148CEE718089AAA /* HDIssueHeaderDataArray.h */,
+				136A8CEDF158CEE718089AAA /* HDIssueHeaderDataArray.m */,
+				136A8CEDF168CEE718089AAA /* HDIssueNoteData.h */,
+				136A8CEDF178CEE718089AAA /* HDIssueNoteData.m */,
+				136A8CEDF188CEE718089AAA /* HDIssueNoteDataArray.h */,
+				136A8CEDF198CEE718089AAA /* HDIssueNoteDataArray.m */,
+				136A8CEDF1A8CEE718089AAA /* HDMantisConnect.h */,
+				136A8CEDF1B8CEE718089AAA /* HDMantisConnect.m */,
+				136A8CEDF1C8CEE718089AAA /* HDObjectRef.h */,
+				136A8CEDF1D8CEE718089AAA /* HDObjectRef.m */,
+				136A8CEDF1E8CEE718089AAA /* HDObjectRefArray.h */,
+				136A8CEDF1F8CEE718089AAA /* HDObjectRefArray.m */,
+				136A8CEDF208CEE718089AAA /* HDProfileData.h */,
+				136A8CEDF218CEE718089AAA /* HDProfileData.m */,
+				136A8CEDF228CEE718089AAA /* HDProfileDataArray.h */,
+				136A8CEDF238CEE718089AAA /* HDProfileDataArray.m */,
+				136A8CEDF248CEE718089AAA /* HDProfileDataSearchResult.h */,
+				136A8CEDF258CEE718089AAA /* HDProfileDataSearchResult.m */,
+				136A8CEDF268CEE718089AAA /* HDProjectAttachmentData.h */,
+				136A8CEDF278CEE718089AAA /* HDProjectAttachmentData.m */,
+				136A8CEDF288CEE718089AAA /* HDProjectAttachmentDataArray.h */,
+				136A8CEDF298CEE718089AAA /* HDProjectAttachmentDataArray.m */,
+				136A8CEDF2A8CEE718089AAA /* HDProjectData.h */,
+				136A8CEDF2B8CEE718089AAA /* HDProjectData.m */,
+				136A8CEDF2C8CEE718089AAA /* HDProjectDataArray.h */,
+				136A8CEDF2D8CEE718089AAA /* HDProjectDataArray.m */,
+				136A8CEDF2E8CEE718089AAA /* HDProjectVersionData.h */,
+				136A8CEDF2F8CEE718089AAA /* HDProjectVersionData.m */,
+				136A8CEDF308CEE718089AAA /* HDProjectVersionDataArray.h */,
+				136A8CEDF318CEE718089AAA /* HDProjectVersionDataArray.m */,
+				136A8CEDF328CEE718089AAA /* HDRelationshipData.h */,
+				136A8CEDF338CEE718089AAA /* HDRelationshipData.m */,
+				136A8CEDF348CEE718089AAA /* HDRelationshipDataArray.h */,
+				136A8CEDF358CEE718089AAA /* HDRelationshipDataArray.m */,
+				136A8CEDF368CEE718089AAA /* HDServices.h */,
+				136A8CEDF378CEE718089AAA /* HDServices.m */,
+				136A8CEDF388CEE718089AAA /* HDStringArray.h */,
+				136A8CEDF398CEE718089AAA /* HDStringArray.m */,
+				136A8CEDF3A8CEE718089AAA /* HDTagData.h */,
+				136A8CEDF3B8CEE718089AAA /* HDTagData.m */,
+				136A8CEDF3C8CEE718089AAA /* HDTagDataArray.h */,
+				136A8CEDF3D8CEE718089AAA /* HDTagDataArray.m */,
+				136A8CEDF3E8CEE718089AAA /* HDTagDataSearchResult.h */,
+				136A8CEDF3F8CEE718089AAA /* HDTagDataSearchResult.m */,
+				136A8CEDF408CEE718089AAA /* Soap+Prefix.h */,
+				136A8CEDF418CEE718089AAA /* Soap+Prefix.m */,
+
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		10C71F91110C0A71008E8718 /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				1067D05612B7BA3D005BBFFD /* NSMutableArray+Soap.h */,
+				1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */,
+				10C71F92110C0A71008E8718 /* NSData+Base64.h */,
+				10C71F93110C0A71008E8718 /* NSData+Base64.m */,
+				10C71F94110C0A71008E8718 /* Soap.h */,
+				10C71F95110C0A71008E8718 /* Soap.m */,
+				10C71F96110C0A71008E8718 /* SoapArray.h */,
+				10C71F97110C0A71008E8718 /* SoapArray.m */,
+				10C71F98110C0A71008E8718 /* SoapDelegate.h */,
+				10C71F9B110C0A71008E8718 /* SoapFault.h */,
+				10C71F9C110C0A71008E8718 /* SoapFault.m */,
+				10C71F9D110C0A71008E8718 /* SoapHandler.h */,
+				10C71F9E110C0A71008E8718 /* SoapHandler.m */,
+				10C71F9F110C0A71008E8718 /* SoapNil.h */,
+				10C71FA0110C0A71008E8718 /* SoapNil.m */,
+				107DACA71217305B00F18A8A /* SoapLiteral.m */,
+				107DACA81217305B00F18A8A /* SoapLiteral.h */,
+				10C71FA1110C0A71008E8718 /* SoapObject.h */,
+				10C71FA2110C0A71008E8718 /* SoapObject.m */,
+				10C71FA3110C0A71008E8718 /* SoapParameter.h */,
+				10C71FA4110C0A71008E8718 /* SoapParameter.m */,
+				10C71FA5110C0A71008E8718 /* SoapReachability.h */,
+				10C71FA6110C0A71008E8718 /* SoapReachability.m */,
+				10C71FA7110C0A71008E8718 /* SoapRequest.h */,
+				10C71FA8110C0A71008E8718 /* SoapRequest.m */,
+				10C71FA9110C0A71008E8718 /* SoapService.h */,
+				10C71FAA110C0A71008E8718 /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		10C71FAB110C0A71008E8718 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				10C71FAC110C0A71008E8718 /* CXMLDocument.h */,
+				10C71FAD110C0A71008E8718 /* CXMLDocument.m */,
+				10C71FAE110C0A71008E8718 /* CXMLDocument_PrivateExtensions.h */,
+				10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */,
+				10C71FB0110C0A71008E8718 /* CXMLElement.h */,
+				10C71FB1110C0A71008E8718 /* CXMLElement.m */,
+				10C71FB2110C0A71008E8718 /* CXMLNode.h */,
+				10C71FB3110C0A71008E8718 /* CXMLNode.m */,
+				10C71FB4110C0A71008E8718 /* CXMLNode_PrivateExtensions.h */,
+				10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */,
+				10C71FB6110C0A71008E8718 /* CXMLNode_XPathExtensions.h */,
+				10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */,
+				10C71FB8110C0A71008E8718 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SudzCExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				10C71EBB110C0A71008E8718 /* Source */,
+				10C71DC8110B5D8E008E8718 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SudzCExamples_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SudzCExamples-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SudzCExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SudzCExamples" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudzCExamples;
+			productName = SudzCExamples;
+			productReference = 1D6058910D05DD3D006BFB54 /* SudzCExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SudzCExamples" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SudzCExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				10C71DCE110B5D9F008E8718 /* SudzCExamplesAppDelegate.m in Sources */,
+				136A8CEDF438CEE718089AAA /* HDMantisConnectExample.m in Sources */,
+				136A8CEDF458CEE718089AAA /* HDAccountData.m in Sources */,
+				136A8CEDF478CEE718089AAA /* HDAccountDataArray.m in Sources */,
+				136A8CEDF498CEE718089AAA /* HDAttachmentData.m in Sources */,
+				136A8CEDF4B8CEE718089AAA /* HDAttachmentDataArray.m in Sources */,
+				136A8CEDF4D8CEE718089AAA /* HDCustomFieldDefinitionData.m in Sources */,
+				136A8CEDF4F8CEE718089AAA /* HDCustomFieldDefinitionDataArray.m in Sources */,
+				136A8CEDF518CEE718089AAA /* HDCustomFieldLinkForProjectData.m in Sources */,
+				136A8CEDF538CEE718089AAA /* HDCustomFieldLinkForProjectDataArray.m in Sources */,
+				136A8CEDF558CEE718089AAA /* HDCustomFieldValueForIssueData.m in Sources */,
+				136A8CEDF578CEE718089AAA /* HDCustomFieldValueForIssueDataArray.m in Sources */,
+				136A8CEDF598CEE718089AAA /* HDFilterData.m in Sources */,
+				136A8CEDF5B8CEE718089AAA /* HDFilterDataArray.m in Sources */,
+				136A8CEDF5D8CEE718089AAA /* HDIssueData.m in Sources */,
+				136A8CEDF5F8CEE718089AAA /* HDIssueDataArray.m in Sources */,
+				136A8CEDF618CEE718089AAA /* HDIssueHeaderData.m in Sources */,
+				136A8CEDF638CEE718089AAA /* HDIssueHeaderDataArray.m in Sources */,
+				136A8CEDF658CEE718089AAA /* HDIssueNoteData.m in Sources */,
+				136A8CEDF678CEE718089AAA /* HDIssueNoteDataArray.m in Sources */,
+				136A8CEDF698CEE718089AAA /* HDMantisConnect.m in Sources */,
+				136A8CEDF6B8CEE718089AAA /* HDObjectRef.m in Sources */,
+				136A8CEDF6D8CEE718089AAA /* HDObjectRefArray.m in Sources */,
+				136A8CEDF6F8CEE718089AAA /* HDProfileData.m in Sources */,
+				136A8CEDF718CEE718089AAA /* HDProfileDataArray.m in Sources */,
+				136A8CEDF738CEE718089AAA /* HDProfileDataSearchResult.m in Sources */,
+				136A8CEDF758CEE718089AAA /* HDProjectAttachmentData.m in Sources */,
+				136A8CEDF778CEE718089AAA /* HDProjectAttachmentDataArray.m in Sources */,
+				136A8CEDF798CEE718089AAA /* HDProjectData.m in Sources */,
+				136A8CEDF7B8CEE718089AAA /* HDProjectDataArray.m in Sources */,
+				136A8CEDF7D8CEE718089AAA /* HDProjectVersionData.m in Sources */,
+				136A8CEDF7F8CEE718089AAA /* HDProjectVersionDataArray.m in Sources */,
+				136A8CEDF818CEE718089AAA /* HDRelationshipData.m in Sources */,
+				136A8CEDF838CEE718089AAA /* HDRelationshipDataArray.m in Sources */,
+				136A8CEDF858CEE718089AAA /* HDServices.m in Sources */,
+				136A8CEDF878CEE718089AAA /* HDStringArray.m in Sources */,
+				136A8CEDF898CEE718089AAA /* HDTagData.m in Sources */,
+				136A8CEDF8B8CEE718089AAA /* HDTagDataArray.m in Sources */,
+				136A8CEDF8D8CEE718089AAA /* HDTagDataSearchResult.m in Sources */,
+				136A8CEDF8F8CEE718089AAA /* Soap+Prefix.m in Sources */,
+
+				1067D05812B7BA3D005BBFFD /* NSMutableArray+Soap.m in Sources */,
+				10C72023110C0A71008E8718 /* NSData+Base64.m in Sources */,
+				10C72024110C0A71008E8718 /* Soap.m in Sources */,
+				10C72025110C0A71008E8718 /* SoapArray.m in Sources */,
+				10C72027110C0A71008E8718 /* SoapFault.m in Sources */,
+				10C72028110C0A71008E8718 /* SoapHandler.m in Sources */,
+				10C72029110C0A71008E8718 /* SoapNil.m in Sources */,
+				107DACA91217305B00F18A8A /* SoapLiteral.m in Sources */,
+				10C7202A110C0A71008E8718 /* SoapObject.m in Sources */,
+				10C7202B110C0A71008E8718 /* SoapParameter.m in Sources */,
+				10C7202C110C0A71008E8718 /* SoapReachability.m in Sources */,
+				10C7202D110C0A71008E8718 /* SoapRequest.m in Sources */,
+				10C7202E110C0A71008E8718 /* SoapService.m in Sources */,
+				10C7202F110C0A71008E8718 /* CXMLDocument.m in Sources */,
+				10C72030110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				10C72031110C0A71008E8718 /* CXMLElement.m in Sources */,
+				10C72032110C0A71008E8718 /* CXMLNode.m in Sources */,
+				10C72033110C0A71008E8718 /* CXMLNode_PrivateExtensions.m in Sources */,
+				10C72034110C0A71008E8718 /* CXMLNode_XPathExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SudzCExamples_Prefix.pch;
+				INFOPLIST_FILE = "SudzCExamples-Info.plist";
+				PRODUCT_NAME = SudzCExamples;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SudzCExamples_Prefix.pch;
+				INFOPLIST_FILE = "SudzCExamples-Info.plist";
+				PRODUCT_NAME = SudzCExamples;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SudzCExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SudzCExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
